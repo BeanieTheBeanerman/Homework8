@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  body {
+    background-color: #0a22f4;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 55px;
+    margin-left: 240px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  
+  .navigation-ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .navigation-li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 30px;
+    color: #ffffff;
+    margin-top: 60px;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  /* .mtavari {
+    margin-left: 500px;
+  } */
+  
+  .kontakti {
+    margin-right: 240px;
+    /* background-color: #ffffff;
+    color: #171717; */
+  }
+  .kontakti:hover {
+        color: white;
+        border: 2px solid #ffffff;
+        &:hover {
+          color: whitesmoke;
+          background-color:#ffffff;
+          box-shadow: 0 5px 12px 0 rgba($color: #ff0066, $alpha: 0.5);
+          opacity:1;
+        }
+      }
+      
+  
+  .limg {
+    max-width: 607px;
+    /* 
+    height: 497px; */
+    overflow: hidden;
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 100%;
+    margin-left: -200px;
+  }
+  
+  .mimg {
+    /* position: absolute; */
+    width: 707px;
+    /* height: 597px;
+    margin-left: 150px;
+    margin-right: 150px; */
+    margin-top: 80px;
+  }
+  
+  .rimg {
+    max-width: 607px;
+    /* 
+    height: 497px; */
+    overflow: hidden;
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 100%;
+    margin-right: -220px;
+  }
+  
+  .imgs-section {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .circle--dots {
+    display: flex;
+  }
+  
+  .circle-dot {
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 30%;
+  }
+  
+  .circle-dot-first {
+    margin-left: 655px;
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .scrolls {
+    display: flex;
+    margin-top: -80px;
+  }
+  
+  .arrows {
+    margin-left: 450px;
+  }
+  
+  .first-arrow {
+    opacity: 50%;
+    transform: rotate(180deg);
+    margin-right: 10px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  .second-arrow {
+    width: 26px;
+    height: 26px;
+  }
+  
